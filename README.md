@@ -6,6 +6,8 @@ What this is
 
 ScrollViewMenuSlider is a similar control to the slide down menu control featured in Facebook iOS app created by Facebook.
 
+![Alt text](http://i50.tinypic.com/352fz8i.jpg "ScrollViewMenuSlider")
+
 What it does
 ------------
 It makes it easy for the user to access the top menu from anywhere in the list 
