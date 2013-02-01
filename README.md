@@ -1,17 +1,15 @@
-ScrollViewMenuSlider
+ScrollViewMenuSlider for iOS
 ===================
 created by Alexander Langstrand
 
 ScrollViewMenuSlider is a similar control to the slide down menu control featured in Facebook iOS app created by Facebook.
-
-
 
 What it does
 ===================
 It makes it easy for the user to access the top menu from anywhere in the list 
 To show the slide in menu, the user simply has to scroll upwards fast enough for the list to scroll a little further by itself. 
 
-How to use
+Getting started
 ===================
 
 In the interface file(.h) of your controller(table/scroll/collection)
