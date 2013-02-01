@@ -1,4 +1,4 @@
-ScrollViewMenuSlider for iOS
+ScrollViewMenuSlider v0.1 for iOS
 ===================
 by Alexander Langstrand
 What this is
