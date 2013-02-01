@@ -4,6 +4,8 @@ created by Alexander Langstrand
 
 ScrollViewMenuSlider is a similar control to the slide down menu control featured in Facebook iOS app created by Facebook.
 
+
+
 What it does
 ===================
 It makes it easy for the user to access the top menu from anywhere in the list 
@@ -30,7 +32,7 @@ And in the implementation(.m) file:
       ScrollViewMenuSlider *scrollViewMenuSliderController;
     }
 
-  And add the scrollViewDelegate methods:
+  Add the scrollViewDelegate methods:
 
     - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
       [_scrollViewMenuSliderController scrollViewDidScroll:scrollView];
@@ -46,6 +48,17 @@ And in the implementation(.m) file:
 
     -(void)scrollViewDidEndDragging:(UIScrollView *)scrollView willDecelerate:(BOOL)decelerate {
       [_scrollViewMenuSliderController scrollViewDidEndDragging:scrollView willDecelerate:decelerate];
+    }
+    
+  And finally, add these lines in your viewDidLoad:
+  
+    if (_scrollViewMenuSliderController == nil) {
+
+        _scrollViewMenuSliderController = [[ScrollViewMenuSliderController alloc] initWithMenuView:_yourMenuView];
+        
+        [self.YourView addSubview:_scrollViewMenuSliderController.view];
+        [self.YourView setContentInset:UIEdgeInsetsMake(_menuView.frame.size.height, 0, 0, 0)];
+        [self.YourView setScrollIndicatorInsets:UIEdgeInsetsMake(_yourMenuView.frame.size.height, 0, 0, 0)];
     }
 
 License
