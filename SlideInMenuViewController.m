@@ -1,18 +1,18 @@
 //
-//  FINSlideInMenuViewController.m
+//  SlideInMenuViewController.m
 //  FINN
 //
 //  Created by Langstrand, Alexander on 29.01.13.
 //  Copyright (c) 2013 FINN.no. All rights reserved.
 //
 
-#import "FINSlideInMenuViewController.h"
+#import "SlideInMenuViewController.h"
 
-@interface FINSlideInMenuViewController ()
+@interface SlideInMenuViewController ()
 
 @end
 
-@implementation FINSlideInMenuViewController {
+@implementation SlideInMenuViewController {
     
     BOOL _menuViewIsReset;
     BOOL _menuViewShouldReset;
@@ -229,7 +229,7 @@
 
 -(void)menuPushed:(id)sender {
     
-    NSLog(@"Pressed!");
+    NSLog(@"Menu button pressed");
     
 }
 

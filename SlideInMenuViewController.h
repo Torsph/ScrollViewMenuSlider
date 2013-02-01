@@ -1,5 +1,5 @@
 //
-//  FINSlideInMenuViewController.h
+//  SlideInMenuViewController.h
 //  FINN
 //
 //  Created by Langstrand, Alexander on 29.01.13.
@@ -15,7 +15,7 @@ typedef enum {
     Downwards = 1
 } ScrollDirection;
 
-@interface FINSlideInMenuViewController : UIViewController<UIScrollViewDelegate>
+@interface SlideInMenuViewController : UIViewController<UIScrollViewDelegate>
 
 @property(assign, nonatomic) CGFloat lastContentOffset;
 
