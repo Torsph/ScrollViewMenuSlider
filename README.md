@@ -4,7 +4,7 @@ by Alexander Langstrand
 What this is
 ------------
 
-ScrollViewMenuSlider is a similar control to the slide down menu control featured in Facebook iOS app created by Facebook.
+ScrollViewMenuSlider is a similar control to the slide down menu control featured in the iOS app created by Facebook.
 
 ![Alt text](http://i50.tinypic.com/352fz8i.jpg "ScrollViewMenuSlider")
 
