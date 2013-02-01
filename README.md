@@ -10,7 +10,8 @@ ScrollViewMenuSlider is a similar control to the slide down menu control feature
 
 What it does
 ------------
-It makes it easy for the user to access the top menu from anywhere in the list 
+It makes it easy for the user to access the top menu from anywhere in the list.
+
 To show the slide in menu, the user simply has to scroll upwards fast enough for the list to scroll a little further by itself. 
 
 Getting started
