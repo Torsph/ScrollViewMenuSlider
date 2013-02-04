@@ -19,7 +19,7 @@
 
     CGFloat _menuViewHeight;
     UIView *_menuView;
-    
+    CGFloat _lastContentOffset;    
 }
 
 -(id)initWithMenuView:(UIView *)menuView {
