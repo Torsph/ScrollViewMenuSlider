@@ -13,7 +13,7 @@ typedef enum {
     Downwards = 1
 } ScrollDirection;
 
-@interface SlideInMenuViewController : UIViewController
+@interface SlideInMenuViewController : UIViewController<UIScrollViewDelegate>
 -(id)initWithMenuView:(UIView *)menu;
 
 @end
