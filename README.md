@@ -64,6 +64,10 @@ Getting started
         [self.YourView setScrollIndicatorInsets:UIEdgeInsetsMake(_yourMenuView.frame.size.height, 0, 0, 0)];
     }
 
+Branching
+------------
+All development work is done on the dev branch. When it's considered stable, it's merged to master with a new version tag.
+
 License
 ------------
 
