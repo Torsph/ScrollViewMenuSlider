@@ -36,7 +36,8 @@
 
 -(void)loadView {
     
-        self.view = _menuView;
+    [super loadView];
+    self.view = _menuView;
 }
 
 #pragma mark -
